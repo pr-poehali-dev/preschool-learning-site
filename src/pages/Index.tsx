@@ -83,6 +83,192 @@ const preschoolSections = [
   },
 ];
 
+// ─── Языки: английский ──────────────────────────────────────────────────────
+const englishSections = {
+  preschool: {
+    id: 'en_pre',
+    title: 'Английский язык',
+    desc: 'Первые слова и буквы на английском',
+    emoji: '🇬🇧',
+    icon: 'Globe2',
+    color: 'bg-sky-500',
+    items: [
+      'A — Apple 🍎', 'B — Ball 🏀', 'C — Cat 🐱', 'D — Dog 🐶', 'E — Egg 🥚', 'F — Fish 🐟',
+      'G — Goat 🐐', 'H — Hat 🎩', 'I — Ice 🧊', 'J — Jam 🫙', 'K — King 👑', 'L — Lion 🦁',
+      'M — Moon 🌙', 'N — Nest 🪺', 'O — Orange 🍊', 'P — Pig 🐷', 'Q — Queen 👸', 'R — Rose 🌹',
+      'S — Sun ☀️', 'T — Tiger 🐯', 'U — Umbrella ☂️', 'V — Van 🚐', 'W — Wolf 🐺', 'X — X-ray',
+      'Y — Yacht ⛵', 'Z — Zebra 🦓',
+      'Hello! — Привет!', 'Bye! — Пока!', 'Yes — Да', 'No — Нет',
+      'Мама — Mom', 'Папа — Dad', 'Cat — кошка 🐱', 'Dog — собака 🐶',
+      'One 1', 'Two 2', 'Three 3', 'Four 4', 'Five 5',
+      'Red — красный', 'Blue — синий', 'Green — зелёный', 'Yellow — жёлтый', 'White — белый',
+      'Big — большой', 'Small — маленький', 'Good — хороший', 'Bad — плохой',
+      'Happy — счастливый 😊', 'Sad — грустный 😢',
+    ],
+  },
+  grade12: {
+    id: 'en_g12',
+    title: 'Английский язык',
+    desc: 'Алфавит, счёт, цвета, простые фразы',
+    emoji: '🇬🇧',
+    icon: 'Globe2',
+    color: 'bg-sky-500',
+    items: [
+      'A-B-C-D-E-F-G', 'H-I-J-K-L-M-N', 'O-P-Q-R-S-T-U', 'V-W-X-Y-Z',
+      'Hello! — Привет!', 'Good morning! — Доброе утро!', 'Good night! — Спокойной ночи!',
+      'Thank you! — Спасибо!', 'Please — Пожалуйста', 'Sorry — Извини',
+      'My name is... — Меня зовут...', 'How are you? — Как дела?', 'I am fine — У меня всё хорошо',
+      'I like — Мне нравится', 'I love — Я люблю', 'I have — У меня есть',
+      'Cat — кошка', 'Dog — собака', 'Bird — птица', 'Fish — рыба',
+      'Apple — яблоко', 'Milk — молоко', 'Bread — хлеб', 'Water — вода',
+      'One, Two, Three, Four, Five', 'Six, Seven, Eight, Nine, Ten',
+      'Red — красный', 'Blue — синий', 'Green — зелёный', 'Yellow — жёлтый', 'Black — чёрный',
+      'School — школа', 'Book — книга', 'Pencil — карандаш', 'Table — стол', 'Chair — стул',
+      'Mother — мама', 'Father — папа', 'Sister — сестра', 'Brother — брат',
+      'Spring — весна', 'Summer — лето', 'Autumn — осень', 'Winter — зима',
+      'Monday — понедельник', 'Friday — пятница', 'Sunday — воскресенье',
+      'I go to school — Я иду в школу', 'I read a book — Я читаю книгу',
+    ],
+  },
+  grade34: {
+    id: 'en_g34',
+    title: 'Английский язык',
+    desc: 'Грамматика, времена, разговорные фразы',
+    emoji: '🇬🇧',
+    icon: 'Globe2',
+    color: 'bg-sky-500',
+    items: [
+      'Present Simple: I play every day', 'Past Simple: I played yesterday',
+      'Future Simple: I will play tomorrow', 'Present Continuous: I am playing now',
+      'Verb to be: I am, You are, He/She is', 'Plural: cat → cats, dog → dogs',
+      'Irregular plural: child → children', 'Possessive: my, your, his, her, our',
+      'Articles: a/an — неопределённый, the — определённый',
+      'Question words: What, Where, When, Who, Why, How',
+      'Can / Cannot: I can swim. I cannot fly.',
+      'There is / There are: есть, имеется',
+      'Adjectives: big, small, fast, slow, beautiful',
+      'Adverbs: quickly, slowly, well, badly',
+      'Prepositions: in, on, under, behind, in front of',
+      'Numbers 1–100: eleven, twelve, twenty, hundred',
+      'Ordinal numbers: first, second, third, fourth',
+      'Months: January, February, March, April, May, June',
+      'Months: July, August, September, October, November, December',
+      'Days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday',
+      'Animals: elephant, giraffe, dolphin, butterfly, eagle',
+      'Food: pizza, spaghetti, sandwich, salad, soup',
+      'Sports: football, basketball, tennis, swimming, cycling',
+      'Professions: doctor, teacher, engineer, artist, pilot',
+      'City: street, park, shop, hospital, library, museum',
+      'Transport: bus, train, plane, ship, bicycle, car',
+      'Body: head, arms, legs, eyes, ears, nose, mouth',
+      'Weather: sunny, cloudy, rainy, windy, snowy, hot, cold',
+      'Colours + shades: dark blue, light green, bright red',
+      'My hobby is reading — Моё хобби — чтение',
+      'What time is it? — Который час?', 'It is 3 o\'clock — Три часа',
+      'How much? — Сколько стоит?', 'I\'d like... — Я хотел бы...',
+      'Excuse me — Простите', 'Nice to meet you — Рад познакомиться',
+      'Could you help me? — Вы не могли бы помочь?',
+      'I don\'t understand — Я не понимаю',
+      'Please repeat — Пожалуйста, повторите',
+      'Short dialogue: At the shop 🛒', 'Short dialogue: At school 🏫',
+      'Short dialogue: At the park 🌳', 'Reading: My favourite animal',
+      'Writing: About my family', 'Song: Happy Birthday 🎂',
+      'Idiom: It\'s raining cats and dogs 🌧️',
+      'Proverb: Better late than never',
+      'Tongue twister: She sells seashells 🐚',
+      'Poem: Roses are red... 🌹',
+    ],
+  },
+};
+
+// ─── Языки: китайский ────────────────────────────────────────────────────────
+const chineseSections = {
+  preschool: {
+    id: 'zh_pre',
+    title: 'Китайский язык',
+    desc: 'Первые иероглифы и слова',
+    emoji: '🇨🇳',
+    icon: 'Languages',
+    color: 'bg-red-500',
+    items: [
+      '你好 — nǐ hǎo — Привет', '再见 — zài jiàn — Пока', '谢谢 — xiè xie — Спасибо',
+      '是 — shì — Да', '不 — bù — Нет', '妈妈 — māma — Мама', '爸爸 — bàba — Папа',
+      '猫 — māo — Кошка 🐱', '狗 — gǒu — Собака 🐶', '鱼 — yú — Рыба 🐟',
+      '苹果 — píngguǒ — Яблоко 🍎', '水 — shuǐ — Вода 💧', '太阳 — tàiyáng — Солнце ☀️',
+      '一 yī — 1', '二 èr — 2', '三 sān — 3', '四 sì — 4', '五 wǔ — 5',
+      '六 liù — 6', '七 qī — 7', '八 bā — 8', '九 jiǔ — 9', '十 shí — 10',
+      '红 hóng — красный', '蓝 lán — синий', '绿 lǜ — зелёный', '黄 huáng — жёлтый',
+      '大 dà — большой', '小 xiǎo — маленький',
+      '好 hǎo — хороший', '我爱你 wǒ ài nǐ — Я тебя люблю ❤️',
+      '月亮 yuèliang — Луна 🌙', '星星 xīngxing — Звезда ⭐',
+      '花 huā — Цветок 🌸', '树 shù — Дерево 🌳',
+    ],
+  },
+  grade12: {
+    id: 'zh_g12',
+    title: 'Китайский язык',
+    desc: 'Иероглифы, пиньинь, базовые фразы',
+    emoji: '🇨🇳',
+    icon: 'Languages',
+    color: 'bg-red-500',
+    items: [
+      '你好 nǐ hǎo — Привет', '再见 zài jiàn — До свидания', '谢谢 xiè xie — Спасибо',
+      '对不起 duì bu qǐ — Извините', '没关系 méi guān xì — Ничего страшного',
+      '我叫... wǒ jiào... — Меня зовут...', '你叫什么? nǐ jiào shénme — Как тебя зовут?',
+      '我是学生 wǒ shì xuésheng — Я ученик', '我几岁 wǒ jǐ suì — Сколько мне лет',
+      '一二三四五 yī èr sān sì wǔ — 1 2 3 4 5',
+      '六七八九十 liù qī bā jiǔ shí — 6 7 8 9 10',
+      '猫 māo — кошка', '狗 gǒu — собака', '鸟 niǎo — птица', '鱼 yú — рыба',
+      '苹果 píngguǒ — яблоко', '香蕉 xiāngjiāo — банан', '橙子 chéngzi — апельсин',
+      '牛奶 niúnǎi — молоко', '水 shuǐ — вода', '面包 miànbāo — хлеб',
+      '学校 xuéxiào — школа', '书 shū — книга', '铅笔 qiānbǐ — карандаш',
+      '桌子 zhuōzi — стол', '椅子 yǐzi — стул',
+      '红 hóng — красный', '蓝 lán — синий', '绿 lǜ — зелёный',
+      '黄 huáng — жёлтый', '白 bái — белый', '黑 hēi — чёрный',
+      '春天 chūntiān — весна', '夏天 xiàtiān — лето',
+      '秋天 qiūtiān — осень', '冬天 dōngtiān — зима',
+      '爸爸 bàba — папа', '妈妈 māma — мама', '哥哥 gēge — старший брат',
+      '妹妹 mèimei — младшая сестра',
+      '一月 yīyuè — январь', '七月 qīyuè — июль', '十二月 shí-èryuè — декабрь',
+      '今天 jīntiān — сегодня', '明天 míngtiān — завтра', '昨天 zuótiān — вчера',
+      '谢谢你! — Большое спасибо!', '我喜欢... — Мне нравится...',
+    ],
+  },
+  grade34: {
+    id: 'zh_g34',
+    title: 'Китайский язык',
+    desc: 'Чтение, письмо, диалоги и грамматика',
+    emoji: '🇨🇳',
+    icon: 'Languages',
+    color: 'bg-red-500',
+    items: [
+      '4 тона: mā (1), má (2), mǎ (3), mà (4)', 'Нейтральный тон: ma (частица вопроса)',
+      '我 wǒ — я', '你 nǐ — ты', '他 tā — он', '她 tā — она', '我们 wǒmen — мы',
+      '这 zhè — это', '那 nà — то', '的 de — притяжательная частица',
+      '很 hěn — очень', '不 bù — не', '没有 méiyǒu — нет / не иметь',
+      '吃 chī — есть', '喝 hē — пить', '去 qù — идти', '来 lái — приходить',
+      '看 kàn — смотреть', '听 tīng — слушать', '说 shuō — говорить', '写 xiě — писать',
+      '大 dà — большой', '小 xiǎo — маленький', '多 duō — много', '少 shǎo — мало',
+      '今天天气怎么样? — Какая сегодня погода?',
+      '天气很好 — Погода хорошая', '下雨了 — Идёт дождь', '下雪了 — Идёт снег',
+      '你家在哪里? — Где твой дом?', '我家在... — Мой дом в...',
+      '多少钱? duōshao qián — Сколько стоит?',
+      '你喜欢什么? — Что тебе нравится?', '我喜欢音乐 — Я люблю музыку',
+      '北京 Běijīng — Пекин', '上海 Shànghǎi — Шанхай', '中国 Zhōngguó — Китай',
+      '长城 Chángchéng — Великая стена', '故宫 Gùgōng — Запретный город',
+      '熊猫 xióngmāo — Панда 🐼', '龙 lóng — Дракон 🐉',
+      '春节 Chūnjié — Китайский Новый год 🎆', '红包 hóngbāo — Красный конверт 🧧',
+      '中文很有趣! — Китайский язык очень интересный!',
+      '一百 yī bǎi — сто', '一千 yī qiān — тысяча', '一万 yī wàn — десять тысяч',
+      '数学 shùxué — математика', '语文 yǔwén — китайский язык', '英语 yīngyǔ — английский',
+      '朋友 péngyou — друг', '老师 lǎoshī — учитель', '同学 tóngxué — одноклассник',
+      '图书馆 túshūguǎn — библиотека', '操场 cāochǎng — школьный двор',
+      'Диалог: В магазине 🛒', 'Диалог: Знакомство 👋', 'Диалог: О семье 👨‍👩‍👧',
+      '我的爱好是... — Моё хобби — ...', '祝你生日快乐! — С днём рождения! 🎂',
+    ],
+  },
+};
+
 // ─── 1–2 класс ──────────────────────────────────────────────────────────────
 const grade12Sections = [
   {
@@ -304,6 +490,7 @@ const colorSwatches = [
 ];
 
 type GradeTab = 'preschool' | 'grade12' | 'grade34';
+type LangTab = 'ru' | 'en' | 'zh';
 
 const gradeTabs: { id: GradeTab; label: string; emoji: string; color: string }[] = [
   { id: 'preschool', label: 'Дошкольники', emoji: '🐣', color: 'bg-primary' },
@@ -311,15 +498,36 @@ const gradeTabs: { id: GradeTab; label: string; emoji: string; color: string }[]
   { id: 'grade34', label: '3–4 класс', emoji: '🏆', color: 'bg-indigo-600' },
 ];
 
-const allSectionsMap: Record<GradeTab, typeof preschoolSections> = {
-  preschool: preschoolSections,
-  grade12: grade12Sections,
-  grade34: grade34Sections,
+const langTabs: { id: LangTab; label: string; flag: string }[] = [
+  { id: 'ru', label: 'Русский', flag: '🇷🇺' },
+  { id: 'en', label: 'English', flag: '🇬🇧' },
+  { id: 'zh', label: '中文', flag: '🇨🇳' },
+];
+
+type Section = typeof preschoolSections[0];
+
+const allSectionsMap: Record<GradeTab, Record<LangTab, Section[]>> = {
+  preschool: {
+    ru: preschoolSections,
+    en: [englishSections.preschool],
+    zh: [chineseSections.preschool],
+  },
+  grade12: {
+    ru: grade12Sections,
+    en: [englishSections.grade12],
+    zh: [chineseSections.grade12],
+  },
+  grade34: {
+    ru: grade34Sections,
+    en: [englishSections.grade34],
+    zh: [chineseSections.grade34],
+  },
 };
 
 const Index = () => {
   const [active, setActive] = useState('home');
   const [gradeTab, setGradeTab] = useState<GradeTab>('preschool');
+  const [langTab, setLangTab] = useState<LangTab>('ru');
   const [progress, setProgress] = useState<Record<string, number>>({});
   const [stars, setStars] = useState<string[]>([]);
 
@@ -343,10 +551,15 @@ const Index = () => {
     });
   };
 
-  const currentSections = allSectionsMap[gradeTab];
+  const currentSections = allSectionsMap[gradeTab][langTab];
 
   const totalLearned = Object.values(progress).reduce((a, b) => a + b, 0);
-  const totalAll = [...preschoolSections, ...grade12Sections, ...grade34Sections].reduce((a, s) => a + s.items.length, 0);
+  const allSections = [
+    ...preschoolSections, ...grade12Sections, ...grade34Sections,
+    englishSections.preschool, englishSections.grade12, englishSections.grade34,
+    chineseSections.preschool, chineseSections.grade12, chineseSections.grade34,
+  ];
+  const totalAll = allSections.reduce((a, s) => a + s.items.length, 0);
   const overallPct = Math.round((totalLearned / totalAll) * 100);
 
   const navItems = [
@@ -434,7 +647,7 @@ const Index = () => {
     </div>
   );
 
-  const activeSectionObj = [...preschoolSections, ...grade12Sections, ...grade34Sections].find(s => s.id === active);
+  const activeSectionObj = allSections.find(s => s.id === active);
 
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
@@ -539,9 +752,10 @@ const Index = () => {
             {/* Grade cards */}
             <section className="grid sm:grid-cols-3 gap-6 mb-12">
               {gradeTabs.map((g, i) => {
-                const secs = allSectionsMap[g.id];
-                const learned = secs.reduce((a, s) => a + (progress[s.id] || 0), 0);
-                const total = secs.reduce((a, s) => a + s.items.length, 0);
+                const allLangSecs = Object.values(allSectionsMap[g.id]).flat();
+                const learned = allLangSecs.reduce((a, s) => a + (progress[s.id] || 0), 0);
+                const total = allLangSecs.reduce((a, s) => a + s.items.length, 0);
+                const ruCount = allSectionsMap[g.id].ru.length;
                 const pct = Math.round((learned / total) * 100);
                 return (
                   <button
@@ -554,7 +768,7 @@ const Index = () => {
                       {g.emoji}
                     </div>
                     <h3 className="font-display text-2xl font-extrabold mb-1">{g.label}</h3>
-                    <p className="text-muted-foreground text-sm mb-4">{secs.length} разделов • {total} карточек</p>
+                    <p className="text-muted-foreground text-sm mb-4">{ruCount} предметов • 🇷🇺 🇬🇧 🇨🇳</p>
                     <div className="h-3 bg-muted rounded-full overflow-hidden">
                       <div className={`h-full ${g.color} rounded-full transition-all`} style={{ width: `${pct}%` }} />
                     </div>
@@ -570,7 +784,7 @@ const Index = () => {
                 <span>🏆</span> Мои достижения
               </h2>
               <div className="flex flex-wrap gap-3">
-                {[...preschoolSections, ...grade12Sections, ...grade34Sections].map((s) => {
+                {allSections.map((s) => {
                   const earned = stars.includes(s.id);
                   return (
                     <div
@@ -597,7 +811,7 @@ const Index = () => {
             <h1 className="font-display text-4xl font-extrabold mb-6">Выбери раздел</h1>
 
             {/* Grade tabs */}
-            <div className="flex flex-wrap gap-2 mb-8">
+            <div className="flex flex-wrap gap-2 mb-4">
               {gradeTabs.map((g) => (
                 <button
                   key={g.id}
@@ -607,6 +821,21 @@ const Index = () => {
                   }`}
                 >
                   {g.emoji} {g.label}
+                </button>
+              ))}
+            </div>
+
+            {/* Language tabs */}
+            <div className="flex gap-2 mb-8 p-1 bg-muted rounded-2xl w-fit">
+              {langTabs.map((l) => (
+                <button
+                  key={l.id}
+                  onClick={() => setLangTab(l.id)}
+                  className={`flex items-center gap-1.5 px-4 py-2 rounded-xl font-bold text-sm transition-all ${
+                    langTab === l.id ? 'bg-card shadow-md scale-105 text-foreground' : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  <span>{l.flag}</span> {l.label}
                 </button>
               ))}
             </div>
