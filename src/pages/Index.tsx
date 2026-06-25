@@ -34,13 +34,23 @@ const sections = [
     soft: 'bg-yellow-50',
     items: ['Красный', 'Оранжевый', 'Жёлтый', 'Зелёный', 'Голубой', 'Фиолетовый'],
   },
+  {
+    id: 'russian',
+    title: 'Русский язык',
+    desc: 'Читаем слоги и первые слова по картинкам',
+    emoji: '📖',
+    icon: 'Languages',
+    color: 'bg-rose-500',
+    soft: 'bg-rose-50',
+    items: ['МА-МА 👩', 'ПА-ПА 👨', 'КО-Т 🐱', 'СО-БА-КА 🐶', 'ДО-М 🏠', 'РЕ-КА 🌊'],
+  },
 ];
 
 const colorSwatches = ['#FF5A36', '#FF9F1C', '#FFD23F', '#2EC4B6', '#4D9DE0', '#9B5DE5'];
 
 const Index = () => {
   const [active, setActive] = useState('home');
-  const [progress, setProgress] = useState<Record<string, number>>({ abc: 0, math: 0, colors: 0 });
+  const [progress, setProgress] = useState<Record<string, number>>({ abc: 0, math: 0, colors: 0, russian: 0 });
   const [stars, setStars] = useState<string[]>([]);
 
   useEffect(() => {
@@ -72,6 +82,7 @@ const Index = () => {
     { id: 'abc', label: 'Азбука', icon: 'BookA' },
     { id: 'math', label: 'Математика', icon: 'Calculator' },
     { id: 'colors', label: 'Цвета', icon: 'Palette' },
+    { id: 'russian', label: 'Русский', icon: 'Languages' },
   ];
 
   return (
